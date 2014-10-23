@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{726D24FE-081F-223E-E863-F6ADE5989844}</ProjectGuid>
+	<ProjectGuid>{8E3E1C1E-FB9B-6DCA-0BCD-C1520F1677E4}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -51,7 +51,9 @@
      <Compile Include="Assets\Scripts\GeneradorColumnas.cs" />
      <Compile Include="Assets\Scripts\MovimientoScript.cs" />
      <Compile Include="Assets\Scripts\RendererExtension.cs" />
+     <Compile Include="Assets\Scripts\ScoreUp.cs" />
      <Compile Include="Assets\Scripts\jumpScript.cs" />
+     <Compile Include="Assets\Scripts\menuScript.cs" />
      <Compile Include="Assets\Scripts\scrollInfinito.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
