@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\ScoreUp.cs" />
      <Compile Include="Assets\Scripts\jumpScript.cs" />
      <Compile Include="Assets\Scripts\menuScript.cs" />
+     <Compile Include="Assets\Scripts\muerteScript.cs" />
      <Compile Include="Assets\Scripts\scrollInfinito.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
