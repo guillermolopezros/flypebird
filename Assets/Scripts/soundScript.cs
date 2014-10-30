@@ -1,16 +1,19 @@
 ﻿using UnityEngine;
 using System.Collections;
-
-public class muerteScript : MonoBehaviour {
-	public static bool dead = false;
+[RequireComponent(typeof(AudioSource))]
+public class soundScript : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		audio.Play ();
 	
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	if (!Gamecontrol
+		if (GameControl.dead) {
+			audio.Stop();		
+		}
+	
 	}
 }
